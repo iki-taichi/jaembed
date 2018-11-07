@@ -82,6 +82,7 @@ serializers.save_npz('sample_dir/sample.model', model)
 model = SampleModel(
         metadata_path='sample_dir/embed_meta.pklb',
     )
-model_path = os.path.join('sample_dir/sample.model', model_name)
 serializers.load_npz('sample_dir/sample.model', model)
 ```
+
+なお、学習済みベクトルはchain自体に保存されるため、モデルロード時にdataディレクトリは必要ありません。
