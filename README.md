@@ -28,9 +28,9 @@ Version 4.2.0 での動作を確認しています。
 
 ## 使い方
 
-Chainerのlinkとして他のchainから呼び出します。
+dataディレクトリとjaembed.pyを使用環境にコピーし、Chainerのlinkとして他のchainから呼び出します。
 
-詳しくはsample.pyを参照してください。
+sample.pyでは、文字列の埋め込みをベクトルを取得するサンプルを示します。
 
 ```:python
 import chainer
